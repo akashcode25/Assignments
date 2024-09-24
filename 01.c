@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c,d;
+float a,b,c,d;
 printf("enter the amount = ");
-scanf("%d",&a);
+scanf("%f",&a);
 printf("enter the rate = ");
-scanf("%d",&b);
+scanf("%f",&b);
 printf("enter the time = ");
-scanf("%d",&c);
+scanf("%f",&c);
 d=(a*b*c)/100;
-printf("simple interest is = %d",d);
+printf("simple interest is = %f",d);
 }
