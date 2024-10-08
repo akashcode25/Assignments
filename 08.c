@@ -2,8 +2,9 @@
 int main()
 {
     float d,h,m,s;
-    printf("Time in seconds");
-    scanf("%f",&s);
+    s=31558150;
+    printf("Time in seconds=31558150\n");
+    
     m=(s)/60;
     h=(m)/60;
     d=(h)/24;
