@@ -11,13 +11,13 @@ int main()
 
     while (*ptr)
     {
-        char ch = *ptr; // Get the current character
+        char ch = *ptr;
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
         {
-            vowelCount++; // Increment count if it's a vowel
+            vowelCount++;
         }
-        ptr++; // Move to the next character
+        ptr++;
     }
 
     printf("Number of vowels: %d\n", vowelCount);
